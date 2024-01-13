@@ -77,10 +77,9 @@
         // ❤️ 修改音乐在这里
         __audio.src = "../music/1.mp3";
         __audio.loop = true;
+        __audio.autoplay = true;
         __audio.volume = 0.6;
-        window.onclick = function() {
-            __audio.play();
-        };
+        //window.onclick = function() {__audio.play();};
     </script>
     <script>
         let starCount = 1500;
@@ -89,17 +88,20 @@
         // 💗 ‼️ ‼️ 想要说的话在这里 💗
         const my_labels = [
             "祝你",
-            "2024新年快乐",
-            "年复一年，年赴一年，年富一年；" ,
-            "新的一年，希望遇见更好的自己，" ,
-            "不念过往，不畏将来。" ,
-            "烟火星辰所愿皆成真。",
-            "愿你新的一年里，" ,
-            "目明心亮，立心力行，" ,
-            "愿你生活里有热汤和甜食，",
-            "背包里有书本和远方。" ,
-            "愿你新年好运，齐头并进。",
-            "健健康康，平安喜乐!",
+            "2024新年快乐" ,
+            "年复一年" ,
+            "年赴一年" ,
+            "年富一年" ,
+            "愿你新的一年里" ,
+            "遇见更好的自己",
+            "不念过往，不畏将来" ,
+            "烟火星辰所愿皆成真",
+            "愿你新的一年里" ,
+            "目明心亮，立心力行" ,
+            "愿你生活里有热汤和甜食",
+            "背包里有书本和远方" ,
+            "愿你新年好运，齐头并进",
+            "健健康康，平安喜乐",
         ];
         const shapes = [
             // "img$http://www.html5tricks.com/wp-content/uploads/2015/03/html5-canvas-drag-tree.png"
